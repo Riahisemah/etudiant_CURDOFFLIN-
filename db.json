@@ -1,0 +1,22 @@
+{
+  "etudiants": [
+    {
+      "id": 4,
+      "firstName": "dhrhr",
+      "lastName": "zrhtzh",
+      "age": 88
+    },
+    {
+      "id": 7,
+      "firstName": "xxxx",
+      "lastName": "fezjoief",
+      "age": 8
+    },
+    {
+      "firstName": "riahi",
+      "lastName": "imen",
+      "age": 15,
+      "id": 17
+    }
+  ]
+}

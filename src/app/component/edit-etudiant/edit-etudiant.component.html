@@ -1,0 +1,35 @@
+
+<body>
+  <div class="container">
+   <div id="a" *ngIf="masge" class="alert alert-success d-flex align-items-center" role="alert">
+     <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+     <div>
+     Edit studint succed ... thnx !
+     </div>
+   </div>
+   <div class="title">Edit studint</div>
+       <form [formGroup]="editEtudiant" (ngSubmit)="saveEdit()">
+           <div class="user-detaile">
+            
+               <div class="impotbox">
+                   <span class="detaie">first name</span>
+                   <input type="text" formControlName="firstName" placeholder="entre plasse" required>
+               </div>
+               <div class="impotbox">
+                   <span class="detaie">last name</span>
+                   <input type="text" formControlName="lastName" placeholder="entre plasse" required>
+               </div>
+               <div class="impotbox">
+                   <span class="detaie">age</span>
+                   <input type="number" formControlName="age" placeholder="entre plasse" required>
+               </div>
+              
+           </div>
+           <div class="button">
+               <input type="submit" value="edit">
+           </div>
+       </form>
+   
+
+  </div>
+</body>

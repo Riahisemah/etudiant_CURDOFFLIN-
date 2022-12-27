@@ -1,0 +1,28 @@
+ <div *ngIf="!active()" >
+ <app-auth-etudiant></app-auth-etudiant>
+ </div>
+ <div class="hero" *ngIf="active()">
+<nav>
+  
+    <ul>
+      <li>
+    <h2 class="logo">GESTION OF <span>STUDINT</span></h2>
+      </li>
+      <li>
+          <a routerLink="list">liste Etudiant</a>
+        </li>
+        <li >
+          <a  routerLink="add"> add etudiant</a>
+        </li>
+      
+      </ul>
+      <app-signup></app-signup>
+  
+</nav>
+
+  <router-outlet></router-outlet>
+</div>
+
+<nav>
+
+</nav>

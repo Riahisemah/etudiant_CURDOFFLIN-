@@ -1,0 +1,39 @@
+
+    <body>
+        <table class="content-table">
+            <thead>
+              <tr>
+              <th>id</th>
+              <th>first name</th>
+              <th>last name</th>
+              <th>age</th>
+              <th >action</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr  *ngFor="let i of allEtudiant">
+                <td>
+                  {{i.id}}</td>
+                  <td>
+                  {{i.firstName}}
+                  </td>
+                  <td>
+                    {{i.lastName}}
+                  </td>
+                  <td>
+                    {{i.age}}
+                  </td>
+                  <td>
+                    <a (click)="delete(i.id)" style="--clr:red" ><span>delete </span><i></i></a>
+                    &nbsp;
+                    <a routerLink="/edit/{{i.id}} "style="--clr:#45f3ff" ><span> edit</span><i></i></a>
+                    </td>
+                    </tr>
+            </tbody>
+          </table>
+    </body>
+  
+    
+
+      
+      
