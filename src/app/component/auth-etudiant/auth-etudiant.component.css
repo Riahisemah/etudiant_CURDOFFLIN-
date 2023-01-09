@@ -11,14 +11,14 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background: #23242a;
+            background: #8099E9;
         }
 
         .box {
             position: relative;
             width: 380px;
             height: 420px;
-            background: #1c1c1c;
+            background: #171430;
             border-radius: 8px;
             overflow: hidden;
         }
@@ -62,7 +62,7 @@
             position: absolute;
             inset: 2px;
             border-radius: 8px;
-            background-color: #28292d;
+            background-color: #171430;
             z-index: 10;
             padding: 80px 40px;
             display: flex;

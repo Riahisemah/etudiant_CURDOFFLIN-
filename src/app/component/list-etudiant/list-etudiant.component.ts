@@ -6,16 +6,15 @@ import { EtudiantService } from '../../services/etudiant.service';
   styleUrls: ['./list-etudiant.component.css']
 })
 export class ListEtudiantComponent implements OnInit {
-  
-  
+
+
   allEtudiant :any =[];
-  allEtudiants :any =[];
 
   show:boolean=true;
-  
+
 
   constructor(private etudiant:EtudiantService) { }
-  dtOptions :DataTables.Settings={};
+
   ngOnInit(): void {
      this.etudiant.getAllEtudiants().subscribe((data)=>{
       this.allEtudiant= data;
@@ -30,7 +29,7 @@ export class ListEtudiantComponent implements OnInit {
 
       this.ngOnInit();
     })
-  }
+  }/*
   onSearch(dataForm:any){
     this.etudiant.getSerchEtudiant(dataForm.keyword)
     .subscribe((data)=>{
@@ -38,6 +37,6 @@ export class ListEtudiantComponent implements OnInit {
       this.allEtudiants= data;
       this.show=false;
     })
-  };
+  };*/
 
 }

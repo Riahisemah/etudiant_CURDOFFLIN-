@@ -9,7 +9,6 @@ import { AuthEtudiantComponent } from './component/auth-etudiant/auth-etudiant.c
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {DataTablesModule} from 'angular-datatables';  
 import { SignupComponent } from './component/signup/signup.component';
 @NgModule({
   declarations: [
@@ -26,7 +25,6 @@ import { SignupComponent } from './component/signup/signup.component';
     NgbModule,
     HttpClientModule,
     ReactiveFormsModule,
-    DataTablesModule,
     FormsModule
 
   ],

@@ -8,16 +8,17 @@ import { AuthService } from './services/auth.service';
 })
 export class AppComponent{
   title = 'etudiant';
- 
+
 
   constructor(public auth:AuthService){
 
+
   }
-  a:boolean=false;
-  active(){ 
+  // fonction return true if login is true
+  active(){
      return this.auth.authenticated;
-      
+
   }
-  
+
 
 }

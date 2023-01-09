@@ -1,28 +1,29 @@
+<!--page login -->
  <div *ngIf="!active()" >
  <app-auth-etudiant></app-auth-etudiant>
  </div>
+ <!-- navigation avec tout les page -->
+ <!-- navbar -->
  <div class="hero" *ngIf="active()">
 <nav>
-  
+
+
+
+    <h2 class="logo">MANGEMENT OF <span>STUDENTS</span></h2>
     <ul>
       <li>
-    <h2 class="logo">GESTION OF <span>STUDINT</span></h2>
-      </li>
-      <li>
-          <a routerLink="list">liste Etudiant</a>
+          <a routerLink="">list of STUDENTS</a>
         </li>
-        <li >
-          <a  routerLink="add"> add etudiant</a>
+        <li>
+          <a  routerLink="add"> add STUDENTS</a>
         </li>
-      
-      </ul>
-      <app-signup></app-signup>
-  
-</nav>
 
+      </ul>
+      <!-- batton to signUp -->
+      <app-signup></app-signup>
+
+</nav>
+<!--navigation avec les page -->
   <router-outlet></router-outlet>
 </div>
 
-<nav>
-
-</nav>

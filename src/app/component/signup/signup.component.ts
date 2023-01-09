@@ -12,6 +12,7 @@ export class SignupComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  //function to change login to false
   a:boolean=false;
 active(){
   this.auth.auth(this.a);

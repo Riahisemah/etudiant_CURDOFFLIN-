@@ -15,15 +15,19 @@ export class AuthEtudiantComponent implements OnInit {
   constructor(public authService :AuthService ){
 
   }
+  userName:any=[]
   ngOnInit(): void {
 
-  }
+   }
+
+
+
   login(){
     this.authService.authenticate(
       this.name.nativeElement.value,this.password.nativeElement.value
-      
+
     );
-    
+
   }
 }
 

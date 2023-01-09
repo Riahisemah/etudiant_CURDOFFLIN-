@@ -3,6 +3,7 @@
   width: 100%;
 
 }
+
 nav{
   background-color:  linear-gradient(-133deg,rgb(39, 152, 239),rgb(71, 8, 68));
   position: fixed;
@@ -24,9 +25,11 @@ span{
   color: rgb(21, 24, 24);
 
 }
+
 nav ul li a{
-  color: wheat;
-  text-decoration: none;
+
+  color: #fff;
+  text-decoration:double;
   font-weight: bold;
 }
 nav ul li {
@@ -35,7 +38,7 @@ nav ul li {
  padding: 10px 20px;
 }
 nav ul li a:hover{
-  color: aqua;
-  transition:.3s ;
+  color: #8099e9;
+  font-size: large;
+  transition:0.3s ;
 }
-

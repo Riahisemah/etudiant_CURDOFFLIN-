@@ -23,7 +23,7 @@ masge : Boolean = false;
 save(){
  this.etudiant.addEtudiant(this.addEtudiant.value).subscribe((rusalt )=>
   {
-    alert('add etudiant succed ');
+    alert('add student succed ');
   })
   this.masge=true;
 }
